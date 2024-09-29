@@ -1,16 +1,51 @@
-# task_id_week_04
+ # Flutter To-Do List Application📝
 
-A new Flutter project.
 
-## Getting Started
+This is a simple yet functional To-Do List Application developed using Flutter and Cubit as the state management solution. The app allows users to create, edit, delete, and mark tasks as completed. The tasks are stored locally using 
+   the sqflite database, ensuring data persistence even after closing the app. The app is designed to be user-friendly and responsive.
 
-This project is a starting point for a Flutter application.
+ # Features 🚀
+ 1. Home Screen
+Display a list of tasks with task names and checkboxes to mark them as completed.
+Floating action button (FAB) to navigate to the screen for adding new tasks.
+ 2. Add Task Screen
+A form where users can input a task name and description.
+Save button to add the new task to the task list on the Home Screen.
+3. Edit Task Functionality
+Users can tap on any task to open it for editing.
+The edit screen is pre-populated with the task details for easy modification.
+Save button to update the task details.
+4. Delete Task Functionality
+Option to delete a task from the list.
+5. Mark Task as Completed
+Each task has a checkbox to mark it as completed or pending.
+Completed tasks are visually distinguished (strikethrough text or color change).
+6. Local Storage
+Tasks are stored locally using sqflite.
+Data persists even after the app is closed or restarted.
+ # Technologies Used🛠️
++ Flutter: Framework for building the UI.
+Cubit: State management solution.
++ sqflite: Local database for persisting tasks.
+ # Screenshots📱
+[Add some screenshots of the application here to showcase how it looks!]
 
-A few resources to get you started if this is your first Flutter project:
+# Getting Started 🔧
+# Prerequisites
+Ensure you have the following tools installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
++ Flutter SDK
++ Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Local Database Setup
++ The app uses sqflite for local storage. No additional setup is required. The database is created automatically when the app is run.
+
+ # Contributions 🎉
++ Feel free to contribute to this project by opening issues or submitting pull requests. All contributions are welcome!
+ 
+##  Connect with Me 📢
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/ahmed-elsharhawy-30a069180/). Let's discuss more about Flutter, state management, and building awesome applications!
+ns!
+
+##### Thank you for checking out my Flutter To-Do List App! 😊
