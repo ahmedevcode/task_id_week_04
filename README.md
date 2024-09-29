@@ -27,8 +27,11 @@ Data persists even after the app is closed or restarted.
 + Flutter: Framework for building the UI.
 Cubit: State management solution.
 + sqflite: Local database for persisting tasks.
- # Screenshots📱
-[Add some screenshots of the application here to showcase how it looks!]
+ # vedio record 📱
+
+
+https://github.com/user-attachments/assets/0f08f5eb-452b-4323-b9de-564f1aad9ad9
+
 
 # Getting Started 🔧
 # Prerequisites
