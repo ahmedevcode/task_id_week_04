@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:task_id_week_04/core/routing/app_route.dart';
 import 'package:task_id_week_04/feature/home/presentation/screens/home_screen.dart';
 
 void main() {
@@ -12,9 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      onGenerateRoute: (settings) {
-        return AppRoute.ongenerateroutes(settings);
-      },
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
       ),
